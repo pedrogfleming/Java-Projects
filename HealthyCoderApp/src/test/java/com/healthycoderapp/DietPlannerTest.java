@@ -6,6 +6,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class DietPlannerTest {
@@ -32,6 +33,7 @@ class DietPlannerTest {
 	}
 	
 	@Test
+	@DisplayName(value="Get correct diet plan of correct coder")
 	void should_ReturnCorrectDietPlan_When_CorrectCoder() {
 		// given
 		Coder coder = new Coder(1.82, 75.0, 26, Gender.MALE);
