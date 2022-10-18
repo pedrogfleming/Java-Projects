@@ -11,15 +11,7 @@ import org.junit.jupiter.api.Test;
 
 class DietPlannerTest {
 
-	@BeforeAll
-	static void beforeAll() {
-		System.out.print("Before all unit test.");
-	}
-	
-	@AfterAll
-	static void afterAll() {
-		System.out.print("After all unit tests.");
-	}
+
 	
 	private DietPlanner dietPlanner;
 	@BeforeEach
