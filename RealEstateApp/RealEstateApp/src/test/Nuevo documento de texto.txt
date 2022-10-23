@@ -1,0 +1,5 @@
+#Wed Oct 19 17:46:35 ART 2022
+\!/=
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.formatterprofiles.version=22
+@org.eclipse.jdt.ui=3.27.0.v20220824-0714
+file_export_version=3.0
